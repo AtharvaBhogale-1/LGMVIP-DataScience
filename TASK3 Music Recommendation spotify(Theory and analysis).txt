@@ -1,0 +1,15 @@
+#AIM
+
+The goal of such a recommendation system would be to provide personalized content by rightly identifying what the user wants. 
+This means that computers will have to think the way humans do; analysing each of the user’s last choices to predict what they would like in the future. 
+As we have already seen, whenever there is a need for a machine to mimic human behavior, we have to utilize Machine Learning techniques.
+Therefore, in this project, we will be relying on Machine Learning and Neural Networking techniques to build the ultimate music recommendation system.
+
+#PROCEDURE
+
+1.Using the KAGGLE global datasets we import the spotify music data with approximately 200 entries
+2.Using pandas library we read the csv file
+3.Using seaborn we can get the clear visualisation of the data 
+4.Also using corr() we can get the correlation coefficient against every column in the table 
+5.Using kMeans module from sklearn we fit the dataset and prediction is condidered
+6.At last the user needs to enter any name of the song present in the data and thus the ML algorith return the playlist of 10 recommended songs
